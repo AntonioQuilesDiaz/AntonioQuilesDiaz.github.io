@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  @font-face{
+      font-family:BebasNeue;
+      src: url(../css/fonts/BebasNeue.otf);
+    }
+    .bebas{
+      font-family:BebasNeue;
+    }
+    .tecbold{
+      font-family: Handjet-Bold;
+    }
+    .tecsemibold{
+      font-family: Handjet-SemiBold;
+    }
+
+    @font-face{
+      font-family:"Candara";
+      src: url(../css/fonts/CandaraFont.ttf);
+    }
+    .candara{
+      font-family:"Candara";
+    }
+    @font-face{
+      font-family:Bold;
+      src: url(../css/fonts/Merienda-Bold.ttf);
+    }
+    @font-face{
+      font-family:Regular;
+      src: url(../css/fonts/Merienda-Regular.ttf);
+    }
+    .OrbitronBold{
+      font-family: Bold;
+    }
+    .OrbitronRegular{
+      font-family: Regular;
+    }
+
+    .fondoinicio{
+        background: black;
+    }
+    .fondo{
+      background: #ffeac7;
+    }
+    
+    .mt-12x{
+      margin-top: 23%;
+    }
+    .h-90x{
+      height: 800px;
+    }
+  }

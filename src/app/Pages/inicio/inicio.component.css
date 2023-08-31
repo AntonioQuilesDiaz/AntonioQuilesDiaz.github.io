@@ -1,0 +1,274 @@
+.root{
+    background:black;
+}
+
+.sombra:hover{
+        
+        box-shadow:0px 0px 10px -0px #1DF1F1;
+}
+
+.proyectos{
+  height: 60px;
+}
+
+.htlm_skill::after{
+  content: '';
+  position: absolute;
+  width: 155px;
+  background-color: aqua;
+  height: 12px;
+  border-radius: 100px;
+}
+.css_skill::after{
+  content: '';
+  position: absolute;
+  width: 130px;
+  background-color: aqua;
+  height: 12px;
+  border-radius: 100px;
+}
+.angular_skill::after{
+  content: '';
+  position: absolute;
+  width: 150px;
+  background-color: aqua;
+  height: 12px;
+  border-radius: 100px;
+}
+.boostrap_skill::after{
+  content: '';
+  position: absolute;
+  width: 100px;
+  background-color: aqua;
+  height: 12px;
+  border-radius: 100px;
+}
+.tailwind_skill::after{
+  content: '';
+  position: absolute;
+  width: 130px;
+  background-color: aqua;
+  height: 12px;
+  border-radius: 100px;
+}
+
+
+.java_skill::after{
+  content: '';
+  position: absolute;
+  width: 140px;
+  background-color: aqua;
+  height: 12px;
+  border-radius: 100px;
+}
+.javascrip_skill::after{
+  content: '';
+  position: absolute;
+  width: 140px;
+  background-color: aqua;
+  height: 12px;
+  border-radius: 100px;
+}
+.node_skill::after{
+  content: '';
+  position: absolute;
+  width: 130px;
+  background-color: aqua;
+  height: 12px;
+  border-radius: 100px;
+}  
+
+
+.photoshop_skill::after{
+  content: '';
+  position: absolute;
+  width: 135px;
+  background-color: aqua;
+  height: 12px;
+  border-radius: 100px;
+}
+.lightroom_skill::after{
+  content: '';
+  position: absolute;
+  width: 165px;
+  background-color: aqua;
+  height: 12px;
+  border-radius: 100px;
+}
+.figma_skill::after{
+  content: '';
+  position: absolute;
+  width: 90px;
+  background-color: aqua;
+  height: 12px;
+  border-radius: 100px;
+}
+.pempot_skill::after{
+  content: '';
+  position: absolute;
+  width: 125px;
+  background-color: aqua;
+  height: 12px;
+  border-radius: 100px;
+}
+
+
+.mysql_skill::after{
+  content: '';
+  position: absolute;
+  width: 120px;
+  background-color: aqua;
+  height: 12px;
+  border-radius: 100px;
+}
+.mongodb_skill::after{
+  content: '';
+  position: absolute;
+  width: 90px;
+  background-color: aqua;
+  height: 12px;
+  border-radius: 100px;
+}
+
+@media (max-width: 640px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .m-0-auto{
+    margin: 0 auto;
+  }
+  .m-50-0-auto{
+    margin: 50px auto 0;
+  }  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+
+  .htlm_skill::after{
+    content: '';
+    position: absolute;
+    width: 115px;
+    background-color: aqua;
+    height: 12px;
+    border-radius: 100px;
+  }
+  .css_skill::after{
+    content: '';
+    position: absolute;
+    width: 90px;
+    background-color: aqua;
+    height: 12px;
+    border-radius: 100px;
+  }
+  .angular_skill::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-color: aqua;
+    height: 12px;
+    border-radius: 100px;
+  }
+  .boostrap_skill::after{
+    content: '';
+    position: absolute;
+    width: 70px;
+    background-color: aqua;
+    height: 12px;
+    border-radius: 100px;
+  }
+  .tailwind_skill::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-color: aqua;
+    height: 12px;
+    border-radius: 100px;
+  }
+  
+  
+
+  .java_skill::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-color: aqua;
+    height: 12px;
+    border-radius: 100px;
+  }
+  .javascrip_skill::after{
+    content: '';
+    position: absolute;
+    width: 110px;
+    background-color: aqua;
+    height: 12px;
+    border-radius: 100px;
+  }
+  .node_skill::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-color: aqua;
+    height: 12px;
+    border-radius: 100px;
+  }  
+  
+  
+  .photoshop_skill::after{
+    content: '';
+    position: absolute;
+    width: 110px;
+    background-color: aqua;
+    height: 12px;
+    border-radius: 100px;
+  }
+  .lightroom_skill::after{
+    content: '';
+    position: absolute;
+    width: 125px;
+    background-color: aqua;
+    height: 12px;
+    border-radius: 100px;
+  }
+  .figma_skill::after{
+    content: '';
+    position: absolute;
+    width: 70px;
+    background-color: aqua;
+    height: 12px;
+    border-radius: 100px;
+  }
+  .pempot_skill::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-color: aqua;
+    height: 12px;
+    border-radius: 100px;
+  }
+  
+  
+  .mysql_skill::after{
+    content: '';
+    position: absolute;
+    width: 90px;
+    background-color: aqua;
+    height: 12px;
+    border-radius: 100px;
+  }
+  .mongodb_skill::after{
+    content: '';
+    position: absolute;
+    width: 65px;
+    background-color: aqua;
+    height: 12px;
+    border-radius: 100px;
+  }
+}
